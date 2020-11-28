@@ -1,9 +1,9 @@
-const { connection } = require('./connector')
+const { newsArticleModel } = require('./connector')
 const { data } = require('./data')
 
 const refreshAll = async () => {
-    await connection.deleteMany({})
+    await newsArticleModel.deleteMany({})
     // console.log(connection)
-    await connection.insertMany(data)
+    await newsArticleModel.insertMany(data)
 }
 refreshAll()

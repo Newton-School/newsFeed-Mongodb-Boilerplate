@@ -1,10 +1,17 @@
-const { Schema, mongo } = require('mongoose');
+const { Schema } = require('mongoose');
 
-const tallySchema = new Schema({
-    state: Schema.Types.String,
-    infected: Schema.Types.Number,
-    recovered: Schema.Types.Number,
-    death: Schema.Types.Number,
+const newsArticleSchema = new Schema({
+    source: {
+        id: Schema.Types.String,
+        name: Schema.Types.String
+    },
+    author: Schema.Types.String,
+    title: Schema.Types.String,
+    description: Schema.Types.String,
+    url: Schema.Types.String,
+    urlToImage: Schema.Types.String,
+    publishedAt: Schema.Types.String,
+    content: Schema.Types.String,
 })
 
-exports.tallySchema = tallySchema;
+exports.newsArticleSchema = newsArticleSchema;
