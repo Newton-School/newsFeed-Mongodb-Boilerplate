@@ -16,7 +16,6 @@
     "node-serialize": "0.0.4"
   },
   "devDependencies": {
-    
     "mochawesome": "6.1.1",
     "chai-match": "^1.1.1",
     "chai": "^4.2.0",

@@ -1,4 +1,4 @@
-const mongoURI = "mongodb://localhost:27017" + "/newsFeeds"
+const mongoURI = "mongodb://localhost:27017" + "/newsFeed"
 
 let mongoose = require('mongoose');
 const { newsArticleSchema } = require('./schema')

@@ -1,283 +1,270 @@
 const data = [
-    {
-        "source": {
-            "id": "google-news",
-            "name": "Google News"
-        },
-        "author": null,
-        "title": "Stephen A. isn't feeling the Thanksgiving love from the First Take team after Cowboys debate topic - ESPN",
-        "description": null,
-        "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VmdORHREbGo3c0XSAQA?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2020-11-26T16:03:03Z",
-        "content": null
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "KCCI Des Moines"
-        },
-        "author": null,
-        "title": "Iowa reports 41 additional COVID-19 deaths as more facilities report outbreaks - KCCI Des Moines",
-        "description": "The Iowa Department of Public Health on Thursday reported 41 additional COVID-19 deaths as three more long-term care facilities report virus outbreaks.",
-        "url": "https://www.kcci.com/article/iowa-department-of-public-health-november-26-covid-19-update/34797377",
-        "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/nov-26-update-1606405858.jpg?crop=0.891xw:1.00xh;0.109xw,0&resize=1200:*",
-        "publishedAt": "2020-11-26T15:55:00Z",
-        "content": "DES MOINES, Iowa —The Iowa Department of Public Health on Thursday reported 41 additional COVID-19 deaths as three more long-term care facilities report virus outbreaks.\r\nThe health department report… [+2200 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "CNET"
-        },
-        "author": "Gael Fashingbauer Cooper",
-        "title": "Macy's 2020 Thanksgiving Day Parade: How to watch today in every time zone - CNET",
-        "description": "The show will go on. There won't be student marching bands or sidewalk crowds, but there will be plenty of Pikachu, Tom and Jerry, the Boss Baby and more.",
-        "url": "https://www.cnet.com/how-to/macys-thanksgiving-day-parade-2020-how-to-watch-today-in-every-time-zone/",
-        "urlToImage": "https://cnet1.cbsistatic.com/img/6tjFpQvnAuqEnvkpjp31dQubvnY=/1200x630/2020/11/24/834b5b22-81f5-4d43-be59-bf32d6babbc1/turkey-balloon-macys-social.jpg",
-        "publishedAt": "2020-11-26T15:45:00Z",
-        "content": "The Jennie-O turkey balloon will gobble its way through the altered parade.\r\nCourtesy Macy's\r\nFor the most up-to-date news and information about the coronavirus pandemic, visit the WHO website.\r\nThan… [+4187 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "The Guardian"
-        },
-        "author": "Martin Pengelly",
-        "title": "Speculation mounts over who Trump might pardon after Flynn - The Guardian",
-        "description": "Rick Gates, Trump’s 2016 deputy campaign chair, says president ‘knows how much those of us who worked for him have suffered’",
-        "url": "https://www.theguardian.com/us-news/2020/nov/26/trump-pardon-michael-flynn-rick-gates",
-        "urlToImage": "https://i.guim.co.uk/img/media/733c315c869b8dbca5e809c8068a1e88b08ee415/9_0_5195_3117/master/5195.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=65ca2e5c2f0fbf80fbaae478d924bc10",
-        "publishedAt": "2020-11-26T15:34:00Z",
-        "content": "Amid widespread outcry over Donald Trumps pardon of Michael Flynn, speculation surged about who might be next for clemency from the defeated president.\r\nRick Gates, Trumps 2016 deputy campaign chair,… [+5451 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "ESPN"
-        },
-        "author": "Michael Rothstein",
-        "title": "Detroit Lions RB D'Andre Swift to miss second straight game with concussion - ESPN",
-        "description": "Lions running back D'Andre Swift will not play against the Texans, meaning the rookie is missing a second straight game with a concussion.",
-        "url": "https://www.espn.com/nfl/story/_/id/30393472/detroit-lions-rb-dandre-swift-likely-miss-second-straight-game-concussion-sources-say",
-        "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F1116%2Fr776563_1296x729_16%2D9.jpg",
-        "publishedAt": "2020-11-26T14:59:38Z",
-        "content": "DETROIT -- Detroit Lions running back D'Andre Swift will not play in Thursday's game against the Houston Texans.\r\nThe rookie suffered a concussion at some point last week -- the Lions have not made i… [+883 chars]"
-    },
-    {
-        "source": {
-            "id": "the-verge",
-            "name": "The Verge"
-        },
-        "author": "Jon Porter",
-        "title": "Apple’s 10.2-inch iPad is up to $70 off in Best Buy’s Black Friday sale - The Verge",
-        "description": "Best Buy is offering a pair of great deals on Apple’s recently-released 10.2-inch iPad. The retailer has knocked $50 off the price of the base 32GB model and $70 off the price of the 128GB version.",
-        "url": "https://www.theverge.com/21721536/ipad-deal-black-friday-apple-best-buy-sale",
-        "urlToImage": "https://cdn.vox-cdn.com/thumbor/iZiLj-H6-81qj_cqzIL09-gIclA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21904345/DSC01948.jpg",
-        "publishedAt": "2020-11-26T14:57:02Z",
-        "content": "Get a 128GB iPad for $360, or a 32GB model for $280\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nPhoto by Dieter Bohn / The Verge\r\nBest Buy is … [+1916 chars]"
-    },
+
+
     {
         "source": {
             "id": "fox-news",
             "name": "Fox News"
         },
-        "author": "Associated Press",
-        "title": "Ethiopian army ordered to march on Tigray capital: prime minister - Fox News",
-        "description": "Ethiopia's prime minister said Thursday the army has been ordered to move on the embattled Tigray regional capital after his 72-hour ultimatum ended for Tigray leaders to surrender, and he warned the city's half-million residents to stay indoors and disarm.",
-        "url": "https://www.foxnews.com/world/ethiopian-pm-says-army-troops-ordered-to-march-on-tigray-capital",
-        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/11/AP20330732456618.jpg",
-        "publishedAt": "2020-11-26T14:25:03Z",
-        "content": "Ethiopia's prime minister said Thursday the army has been ordered to move on the embattled Tigray regional capital after his 72-hour ultimatum ended for Tigray leaders to surrender, and he warned the… [+5046 chars]"
+        "author": "Alexandra Deabler",
+        "title": "Big Boy takes legal action against Michigan franchise location for violating state’s coronavirus orders - Fox News",
+        "description": "For every day the restaurant remains open and in violation of the state’s rules, it will incur a $1,000 fine.",
+        "url": "https://www.foxnews.com/food-drink/big-boy-michigan-franchise-violating-coronavirus-orders",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/11/iStock-157732326.jpg",
+        "publishedAt": "2020-11-28T01:44:50Z",
+        "content": "This Big Boy has a big problem.\r\nA Big Boy franchise location in Michigan has reportedly had its franchise agreement terminated by Big Boy Restaurants for violating coronavirus restrictions.\r\nThe fra… [+2385 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Express"
+            "name": "Push Square"
         },
-        "author": "Alice Scarsi",
-        "title": "Meghan Markle signals 'heart' of Archewell as future charity plans with Harry discussed - Express",
-        "description": "MEGHAN MARKLE and Prince Harry's foundation's focus has been discussed by a royal expert in the wake of the Duchess of Sussex's painful revelation.",
-        "url": "https://www.express.co.uk/news/royal/1364991/meghan-markle-prince-harry-archewell-charity-foundation-plans-duke-duchess-of-sussex-news",
-        "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/106/750x445/1364991.jpg",
-        "publishedAt": "2020-11-26T14:22:00Z",
-        "content": null
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "TMZ"
-        },
-        "author": "TMZ Staff",
-        "title": "Drake Says Weeknd Snub Proves Grammys Irrelevant - TMZ",
-        "description": "Drake almost finds humor in the Grammys which inexplicably snubbed The Weeknd, essentially saying those little trophies really don't mean crap.",
-        "url": "https://www.tmz.com/2020/11/26/drake-says-weeknd-snub-proves-grammys-irrelevant/",
-        "urlToImage": "https://imagez.tmz.com/image/2b/16by9/2020/11/26/2b54fc0c5a344520858afe580c5eca91_xl.jpg",
-        "publishedAt": "2020-11-26T14:03:00Z",
-        "content": "Drake almost finds humor in the Grammys which inexplicably snubbed The Weeknd, essentially saying those little trophies really don't mean crap.\r\nDrake said Wednesday night, \"I think we should stop al… [+816 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "CBS Sports"
-        },
-        "author": null,
-        "title": "Fantasy Football Rankings Week 12, 2020: Model that beat experts says start D.J. Moore, sit Michael Thomas - CBS Sports",
-        "description": "SportsLine's advanced computer model reveals start-sit advice for Week 12",
-        "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-rankings-week-12-2020-model-that-beat-experts-says-start-d-j-moore-sit-michael-thomas/",
-        "urlToImage": "https://sportshub.cbsistatic.com/i/r/2020/10/08/e815e996-7b7c-403e-85fe-0b87b6b29d54/thumbnail/1200x675/53763123ec3e3689f85acc4738affaa9/d-j-morre-2.jpg",
-        "publishedAt": "2020-11-26T14:02:00Z",
-        "content": "Players like Patrick Mahomes, Davante Adams, Tyreek Hill and Dalvin Cook will be high up in many Fantasy football rankings regardless of their matchup. However, deciding on players like Corey Davis, … [+3948 chars]"
-    },
-    {
-        "source": {
-            "id": "google-news",
-            "name": "Google News"
-        },
-        "author": null,
-        "title": "International Space Station - Thanksgiving in Zero-G - NASA",
-        "description": null,
-        "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VWVJY0RBaGNRQTjSAQA?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2020-11-26T14:00:07Z",
-        "content": null
-    },
-    {
-        "source": {
-            "id": "nbc-news",
-            "name": "NBC News"
-        },
-        "author": "Sahil Kapur",
-        "title": "Biden predicted a GOP 'epiphany' after the election. Trump's standing in the way. - NBC News",
-        "description": "Joe Biden predicted a Republican 'epiphany' after Trump. So far there's no sign of it.",
-        "url": "https://www.nbcnews.com/politics/2020-election/biden-predicted-gop-epiphany-after-election-trump-s-standing-way-n1248996",
-        "urlToImage": "https://media3.s-nbcnews.com/j/newscms/2020_48/3431175/201125-biden-gop-epiphany-main-cover-cs_a582f564c96ab7be61dace6f85ea51dd.nbcnews-fp-1200-630.jpg",
-        "publishedAt": "2020-11-26T13:55:00Z",
-        "content": "WASHINGTON President-elect Joe Biden predicted that Republicans would have an \"epiphany\" after President Donald Trump lost. Three weeks after the election, there's no sign of it.\r\nSenate Majority Lea… [+5984 chars]"
-    },
-    {
-        "source": {
-            "id": "cbs-news",
-            "name": "CBS News"
-        },
-        "author": "Aimee Picchi",
-        "title": "Will you get a stimulus check by December 31? - CBS News",
-        "description": "Millions of Americans are heading for a \"bleak winter\" without additional financial relief from U.S., economists say.",
-        "url": "https://www.cbsnews.com/news/stimulus-check-december-31-year-end/",
-        "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/11/10/fb03a5a5-fd82-49ca-9b1e-adeea6135f62/thumbnail/1200x630/44c8033c14d74f96c0c596ad280e6138/gettyimages-1218079974-1.jpg",
-        "publishedAt": "2020-11-26T13:52:00Z",
-        "content": "Time is running out for the U.S. government to approve a second coronavirus relief package, with Congress adjourned until next week and the Biden administration focusing on assuming office in January… [+6053 chars]"
-    },
-    {
-        "source": {
-            "id": "cnn",
-            "name": "CNN"
-        },
-        "author": "Chandelis Duster, CNN",
-        "title": "New York Times: Justice Department probed Georgia Sen. David Perdue's stock sales at beginning of pandemic - CNN",
-        "description": "The Justice Department opened a probe into Georgia Sen. David Perdue's stock sales for possible insider trading earlier this year but declined to pursue charges, according to The New York Times.",
-        "url": "https://www.cnn.com/2020/11/26/politics/david-perdue-stock-sales-new-york-times/index.html",
-        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201021150928-15a-david-perdue-centered-super-tease.jpg",
-        "publishedAt": "2020-11-26T13:45:00Z",
-        "content": "(CNN)The Justice Department opened a probe into Georgia Sen. David Perdue's stock sales for possible insider trading earlier this year but declined to pursue charges, according to The New York Times.… [+2847 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "CNBC"
-        },
-        "author": "Sam Meredith",
-        "title": "Covid mutations do not appear to be helping the virus spread more rapidly, study says - CNBC",
-        "description": "It comes as drugmakers and research centers scramble to deliver a safe and effective vaccine to help bring an end to the coronavirus pandemic.",
-        "url": "https://www.cnbc.com/2020/11/26/covid-mutations-do-not-appear-to-be-helping-the-virus-spread-more-rapidly-study-says.html",
-        "urlToImage": "https://image.cnbcfm.com/api/v1/image/106741322-1602575810973-gettyimages-1214714655-grk_6890606.jpeg?v=1605892903",
-        "publishedAt": "2020-11-26T13:43:00Z",
-        "content": "A man wearing a face mask waits for a train in the central train station during the COVID-19 pandemic in Stockholm, capital of Sweden, on Nov. 3, 2020.\r\nLONDON A global study of more than 12,000 coro… [+2760 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "mlive.com"
-        },
-        "author": "MLive.com",
-        "title": "National Dog Show 2020, how to watch, see this year’s new dog breeds compete - MLive.com",
-        "description": "Three new AKC dog breeds will be among those competing this year.",
-        "url": "https://www.mlive.com/news/2020/11/national-dog-show-2020-how-to-watch-see-this-years-new-dog-breeds-compete.html",
-        "urlToImage": "https://www.mlive.com/resizer/OFpiKkl1VKXWbowLZThjywgwlyY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/ADKV55FCSVF3LEZ5TDSJEYUZGQ.jpg",
-        "publishedAt": "2020-11-26T13:32:00Z",
-        "content": "For nearly two decades, the National Dog Show has been holiday television fare, right up there with the Macys Thanksgiving Day Parade.\r\nThis year will be no different. The annual dog show puts differ… [+1080 chars]"
-    },
-    {
-        "source": {
-            "id": "the-hill",
-            "name": "The Hill"
-        },
-        "author": "Aris Folley",
-        "title": "Joe and Jill Biden in Thanksgiving op-ed: 'We can be apart without being alone' | TheHill - The Hill",
-        "description": "President-elect Joe Biden and his wife, Jill Biden, penned an op-ed published on Thursday wi...",
-        "url": "https://thehill.com/homenews/administration/527671-joe-and-jill-biden-pen-thanksgiving-op-ed-we-can-be-apart-without",
-        "urlToImage": "https://thehill.com/sites/default/files/bidenjoe_bidenjill_02032020getty_0.jpg",
-        "publishedAt": "2020-11-26T12:42:22Z",
-        "content": "President-elect Joe BidenJoe BidenHarris says she has 'not yet' spoken to PenceKamala Harris, Stacey Abrams among nominees for Time magazine's 2020 Person of the YearObama: Republican Party members b… [+2888 chars]"
-    },
-    {
-        "source": {
-            "id": "nbc-news",
-            "name": "NBC News"
-        },
-        "author": "The Associated Press",
-        "title": "AstraZeneca Covid vaccine study results clouded by manufacturing error - NBC News",
-        "description": "AstraZeneca and Oxford University acknowledged a manufacturing error that is raising questions about preliminary results of their experimental Covid-19 vaccine.",
-        "url": "https://www.nbcnews.com/health/health-news/astrazeneca-covid-vaccine-study-results-clouded-manufacturing-error-n1249093",
-        "urlToImage": "https://media3.s-nbcnews.com/j/newscms/2020_48/3430389/201123-astrazeneca-mc-1442_af0ec22e87026d7542ea69e54384d40c.nbcnews-fp-1200-630.JPG",
-        "publishedAt": "2020-11-26T12:17:00Z",
-        "content": "LONDON AstraZeneca and Oxford University on Wednesday acknowledged a manufacturing error that is raising questions about preliminary results of their experimental Covid-19 vaccine.\r\nA statement descr… [+4214 chars]"
+        "author": "Push Square",
+        "title": "PlayStation Fans So Desperate for PS5 Stock They Brought Their Beds to GameStop - Push Square",
+        "description": "Camped for 24 hours outside store",
+        "url": "https://www.pushsquare.com/news/2020/11/playstation_fans_so_desperate_for_ps5_stock_they_brought_their_beds_to_gamestop",
+        "urlToImage": "https://images.pushsquare.com/6e07f4376d303/1280x720.jpg",
+        "publishedAt": "2020-11-28T00:45:00Z",
+        "content": "8 consoles (2 PS5 and 6 Xbox) is all the store had in stock. 8.\r\nEveryone I talked to there was saying the same thing: this was their only real chance to get a console because all the bots are suckin… [+616 chars]"
     },
     {
         "source": {
             "id": null,
             "name": "Motley Fool"
         },
-        "author": "Rich Smith",
-        "title": "SpaceX Starlink Just Won a Huge Customer - Motley Fool",
-        "description": "SpaceX's satellite internet broadband service is expanding by leaps and bounds -- and leaping across borders.",
-        "url": "https://www.fool.com/investing/2020/11/26/spacex-starlink-just-won-a-huge-customer/",
-        "urlToImage": "https://g.foolcdn.com/editorial/images/601321/satellite-beaming-down-a-signal-to-earth.jpg",
-        "publishedAt": "2020-11-26T12:07:00Z",
-        "content": "On Saturday, Oct. 24, SpaceX crossed the finish line, achieving the 800 Starlink broadband internet satellites in orbit it needed to offer \"moderate\" internet coverage to large portions of Earth's su… [+3486 chars]"
+        "author": "Eric Volkman",
+        "title": "Government Launches Investigation Into 115,000 Tesla Vehicles Over Suspension Issue - Motley Fool",
+        "description": "The NHTSA is looking into reports of failure in the company's Model S and Model X.",
+        "url": "https://www.fool.com/investing/2020/11/27/transportation-regulator-launches-investigation-in/",
+        "urlToImage": "https://g.foolcdn.com/editorial/images/602587/tesla-model-s.jpg",
+        "publishedAt": "2020-11-28T00:33:00Z",
+        "content": "Not for the first time, Tesla (NASDAQ:TSLA) is facing an investigation into the manufacturing of its cars. On Friday, the federal government's National Highway Traffic Safety Administration (NHTSA) a… [+1636 chars]"
     },
     {
         "source": {
-            "id": "usa-today",
-            "name": "USA Today"
+            "id": "google-news",
+            "name": "Google News"
         },
-        "author": "Jessica Flores, Ryan W. Miller",
-        "title": "Coronavirus updates: Thanksgiving parade goes on without crowds; Supreme Court blocks NY worship restrictions; CDC projects 321K deaths - USA TODAY",
-        "description": "The Macy's Thanksgiving Day Parade marches on, but the balloons are distancing. New CDC report says the US misses 8 virus cases for every one counted.",
-        "url": "https://www.usatoday.com/story/news/health/2020/11/26/covid-news-cdc-joe-biden-los-angeles-coronavirus/6427266002/",
-        "urlToImage": "https://www.gannett-cdn.com/presto/2020/11/26/USAT/024d141b-2e07-41b8-b8bc-ef2feba85216-AP_Macys_Thanksgiving_Parade.jpg?crop=1023,575,x1,y70&width=1600&height=800&fit=bounds",
-        "publishedAt": "2020-11-26T12:00:00Z",
-        "content": "AZD1222 is AstraZeneca's newest COVID-19 vaccine candidate, but here is how it differs from the previous two.\r\nUSA TODAY\r\nLike pretty much everything in 2020, Thanksgiving is looking a lot different … [+10868 chars]"
+        "author": null,
+        "title": "COVID-19 leads to a Black Friday unlike any other - CBS Evening News",
+        "description": null,
+        "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Znk1X0xab3dFdXPSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2020-11-28T00:00:13Z",
+        "content": null
     },
-    { "source": { "id": "google-news", "name": "Google News" }, "author": null, "title": "Stephen A. isn't feeling the Thanksgiving love from the First Take team after Cowboys debate topic - ESPN", "description": null, "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VmdORHREbGo3c0XSAQA?oc=5", "urlToImage": null, "publishedAt": "2020-11-26T16:03:03Z", "content": null },
-    { "source": { "id": null, "name": "KCCI Des Moines" }, "author": null, "title": "Iowa reports 41 additional COVID-19 deaths as more facilities report outbreaks - KCCI Des Moines", "description": "The Iowa Department of Public Health on Thursday reported 41 additional COVID-19 deaths as three more long-term care facilities report virus outbreaks.", "url": "https://www.kcci.com/article/iowa-department-of-public-health-november-26-covid-19-update/34797377", "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/nov-26-update-1606405858.jpg?crop=0.891xw:1.00xh;0.109xw,0&resize=1200:*", "publishedAt": "2020-11-26T15:55:00Z", "content": "DES MOINES, Iowa —The Iowa Department of Public Health on Thursday reported 41 additional COVID-19 deaths as three more long-term care facilities report virus outbreaks.\r\nThe health department report… [+2200 chars]" },
-    { "source": { "id": null, "name": "CNET" }, "author": "Gael Fashingbauer Cooper", "title": "Macy's 2020 Thanksgiving Day Parade: How to watch today in every time zone - CNET", "description": "The show will go on. There won't be student marching bands or sidewalk crowds, but there will be plenty of Pikachu, Tom and Jerry, the Boss Baby and more.", "url": "https://www.cnet.com/how-to/macys-thanksgiving-day-parade-2020-how-to-watch-today-in-every-time-zone/", "urlToImage": "https://cnet1.cbsistatic.com/img/6tjFpQvnAuqEnvkpjp31dQubvnY=/1200x630/2020/11/24/834b5b22-81f5-4d43-be59-bf32d6babbc1/turkey-balloon-macys-social.jpg", "publishedAt": "2020-11-26T15:45:00Z", "content": "The Jennie-O turkey balloon will gobble its way through the altered parade.\r\nCourtesy Macy's\r\nFor the most up-to-date news and information about the coronavirus pandemic, visit the WHO website.\r\nThan… [+4187 chars]" },
-    { "source": { "id": null, "name": "The Guardian" }, "author": "Martin Pengelly", "title": "Speculation mounts over who Trump might pardon after Flynn - The Guardian", "description": "Rick Gates, Trump’s 2016 deputy campaign chair, says president ‘knows how much those of us who worked for him have suffered’", "url": "https://www.theguardian.com/us-news/2020/nov/26/trump-pardon-michael-flynn-rick-gates", "urlToImage": "https://i.guim.co.uk/img/media/733c315c869b8dbca5e809c8068a1e88b08ee415/9_0_5195_3117/master/5195.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=65ca2e5c2f0fbf80fbaae478d924bc10", "publishedAt": "2020-11-26T15:34:00Z", "content": "Amid widespread outcry over Donald Trumps pardon of Michael Flynn, speculation surged about who might be next for clemency from the defeated president.\r\nRick Gates, Trumps 2016 deputy campaign chair,… [+5451 chars]" },
-    { "source": { "id": null, "name": "ESPN" }, "author": "Michael Rothstein", "title": "Detroit Lions RB D'Andre Swift to miss second straight game with concussion - ESPN", "description": "Lions running back D'Andre Swift will not play against the Texans, meaning the rookie is missing a second straight game with a concussion.", "url": "https://www.espn.com/nfl/story/_/id/30393472/detroit-lions-rb-dandre-swift-likely-miss-second-straight-game-concussion-sources-say", "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F1116%2Fr776563_1296x729_16%2D9.jpg", "publishedAt": "2020-11-26T14:59:38Z", "content": "DETROIT -- Detroit Lions running back D'Andre Swift will not play in Thursday's game against the Houston Texans.\r\nThe rookie suffered a concussion at some point last week -- the Lions have not made i… [+883 chars]" },
-    { "source": { "id": "the-verge", "name": "The Verge" }, "author": "Jon Porter", "title": "Apple’s 10.2-inch iPad is up to $70 off in Best Buy’s Black Friday sale - The Verge", "description": "Best Buy is offering a pair of great deals on Apple’s recently-released 10.2-inch iPad. The retailer has knocked $50 off the price of the base 32GB model and $70 off the price of the 128GB version.", "url": "https://www.theverge.com/21721536/ipad-deal-black-friday-apple-best-buy-sale", "urlToImage": "https://cdn.vox-cdn.com/thumbor/iZiLj-H6-81qj_cqzIL09-gIclA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21904345/DSC01948.jpg", "publishedAt": "2020-11-26T14:57:02Z", "content": "Get a 128GB iPad for $360, or a 32GB model for $280\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nPhoto by Dieter Bohn / The Verge\r\nBest Buy is … [+1916 chars]" },
-    { "source": { "id": "fox-news", "name": "Fox News" }, "author": "Associated Press", "title": "Ethiopian army ordered to march on Tigray capital: prime minister - Fox News", "description": "Ethiopia's prime minister said Thursday the army has been ordered to move on the embattled Tigray regional capital after his 72-hour ultimatum ended for Tigray leaders to surrender, and he warned the city's half-million residents to stay indoors and disarm.", "url": "https://www.foxnews.com/world/ethiopian-pm-says-army-troops-ordered-to-march-on-tigray-capital", "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/11/AP20330732456618.jpg", "publishedAt": "2020-11-26T14:25:03Z", "content": "Ethiopia's prime minister said Thursday the army has been ordered to move on the embattled Tigray regional capital after his 72-hour ultimatum ended for Tigray leaders to surrender, and he warned the… [+5046 chars]" },
-    { "source": { "id": null, "name": "Express" }, "author": "Alice Scarsi", "title": "Meghan Markle signals 'heart' of Archewell as future charity plans with Harry discussed - Express", "description": "MEGHAN MARKLE and Prince Harry's foundation's focus has been discussed by a royal expert in the wake of the Duchess of Sussex's painful revelation.", "url": "https://www.express.co.uk/news/royal/1364991/meghan-markle-prince-harry-archewell-charity-foundation-plans-duke-duchess-of-sussex-news", "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/106/750x445/1364991.jpg", "publishedAt": "2020-11-26T14:22:00Z", "content": null },
-    { "source": { "id": null, "name": "TMZ" }, "author": "TMZ Staff", "title": "Drake Says Weeknd Snub Proves Grammys Irrelevant - TMZ", "description": "Drake almost finds humor in the Grammys which inexplicably snubbed The Weeknd, essentially saying those little trophies really don't mean crap.", "url": "https://www.tmz.com/2020/11/26/drake-says-weeknd-snub-proves-grammys-irrelevant/", "urlToImage": "https://imagez.tmz.com/image/2b/16by9/2020/11/26/2b54fc0c5a344520858afe580c5eca91_xl.jpg", "publishedAt": "2020-11-26T14:03:00Z", "content": "Drake almost finds humor in the Grammys which inexplicably snubbed The Weeknd, essentially saying those little trophies really don't mean crap.\r\nDrake said Wednesday night, \"I think we should stop al… [+816 chars]" },
-    { "source": { "id": null, "name": "CBS Sports" }, "author": null, "title": "Fantasy Football Rankings Week 12, 2020: Model that beat experts says start D.J. Moore, sit Michael Thomas - CBS Sports", "description": "SportsLine's advanced computer model reveals start-sit advice for Week 12", "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-rankings-week-12-2020-model-that-beat-experts-says-start-d-j-moore-sit-michael-thomas/", "urlToImage": "https://sportshub.cbsistatic.com/i/r/2020/10/08/e815e996-7b7c-403e-85fe-0b87b6b29d54/thumbnail/1200x675/53763123ec3e3689f85acc4738affaa9/d-j-morre-2.jpg", "publishedAt": "2020-11-26T14:02:00Z", "content": "Players like Patrick Mahomes, Davante Adams, Tyreek Hill and Dalvin Cook will be high up in many Fantasy football rankings regardless of their matchup. However, deciding on players like Corey Davis, … [+3948 chars]" },
-    { "source": { "id": "google-news", "name": "Google News" }, "author": null, "title": "International Space Station - Thanksgiving in Zero-G - NASA", "description": null, "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VWVJY0RBaGNRQTjSAQA?oc=5", "urlToImage": null, "publishedAt": "2020-11-26T14:00:07Z", "content": null },
-    { "source": { "id": "nbc-news", "name": "NBC News" }, "author": "Sahil Kapur", "title": "Biden predicted a GOP 'epiphany' after the election. Trump's standing in the way. - NBC News", "description": "Joe Biden predicted a Republican 'epiphany' after Trump. So far there's no sign of it.", "url": "https://www.nbcnews.com/politics/2020-election/biden-predicted-gop-epiphany-after-election-trump-s-standing-way-n1248996", "urlToImage": "https://media3.s-nbcnews.com/j/newscms/2020_48/3431175/201125-biden-gop-epiphany-main-cover-cs_a582f564c96ab7be61dace6f85ea51dd.nbcnews-fp-1200-630.jpg", "publishedAt": "2020-11-26T13:55:00Z", "content": "WASHINGTON President-elect Joe Biden predicted that Republicans would have an \"epiphany\" after President Donald Trump lost. Three weeks after the election, there's no sign of it.\r\nSenate Majority Lea… [+5984 chars]" },
-    { "source": { "id": "cbs-news", "name": "CBS News" }, "author": "Aimee Picchi", "title": "Will you get a stimulus check by December 31? - CBS News", "description": "Millions of Americans are heading for a \"bleak winter\" without additional financial relief from U.S., economists say.", "url": "https://www.cbsnews.com/news/stimulus-check-december-31-year-end/", "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/11/10/fb03a5a5-fd82-49ca-9b1e-adeea6135f62/thumbnail/1200x630/44c8033c14d74f96c0c596ad280e6138/gettyimages-1218079974-1.jpg", "publishedAt": "2020-11-26T13:52:00Z", "content": "Time is running out for the U.S. government to approve a second coronavirus relief package, with Congress adjourned until next week and the Biden administration focusing on assuming office in January… [+6053 chars]" },
-    { "source": { "id": "cnn", "name": "CNN" }, "author": "Chandelis Duster, CNN", "title": "New York Times: Justice Department probed Georgia Sen. David Perdue's stock sales at beginning of pandemic - CNN", "description": "The Justice Department opened a probe into Georgia Sen. David Perdue's stock sales for possible insider trading earlier this year but declined to pursue charges, according to The New York Times.", "url": "https://www.cnn.com/2020/11/26/politics/david-perdue-stock-sales-new-york-times/index.html", "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201021150928-15a-david-perdue-centered-super-tease.jpg", "publishedAt": "2020-11-26T13:45:00Z", "content": "(CNN)The Justice Department opened a probe into Georgia Sen. David Perdue's stock sales for possible insider trading earlier this year but declined to pursue charges, according to The New York Times.… [+2847 chars]" }
-    , { "source": { "id": null, "name": "CNBC" }, "author": "Sam Meredith", "title": "Covid mutations do not appear to be helping the virus spread more rapidly, study says - CNBC", "description": "It comes as drugmakers and research centers scramble to deliver a safe and effective vaccine to help bring an end to the coronavirus pandemic.", "url": "https://www.cnbc.com/2020/11/26/covid-mutations-do-not-appear-to-be-helping-the-virus-spread-more-rapidly-study-says.html", "urlToImage": "https://image.cnbcfm.com/api/v1/image/106741322-1602575810973-gettyimages-1214714655-grk_6890606.jpeg?v=1605892903", "publishedAt": "2020-11-26T13:43:00Z", "content": "A man wearing a face mask waits for a train in the central train station during the COVID-19 pandemic in Stockholm, capital of Sweden, on Nov. 3, 2020.\r\nLONDON A global study of more than 12,000 coro… [+2760 chars]" },
-    { "source": { "id": null, "name": "mlive.com" }, "author": "MLive.com", "title": "National Dog Show 2020, how to watch, see this year’s new dog breeds compete - MLive.com", "description": "Three new AKC dog breeds will be among those competing this year.", "url": "https://www.mlive.com/news/2020/11/national-dog-show-2020-how-to-watch-see-this-years-new-dog-breeds-compete.html", "urlToImage": "https://www.mlive.com/resizer/OFpiKkl1VKXWbowLZThjywgwlyY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/ADKV55FCSVF3LEZ5TDSJEYUZGQ.jpg", "publishedAt": "2020-11-26T13:32:00Z", "content": "For nearly two decades, the National Dog Show has been holiday television fare, right up there with the Macys Thanksgiving Day Parade.\r\nThis year will be no different. The annual dog show puts differ… [+1080 chars]" }
-    , { "source": { "id": "the - hill", "name": "The Hill" }, "author": "Aris Folley", "title": "Joe and Jill Biden in Thanksgiving op - ed: 'We can be apart without being alone' | TheHill - The Hill", "description": "President - elect Joe Biden and his wife, Jill Biden, penned an op - ed published on Thursday wi...", "url": "https://thehill.com/homenews/administration/527671-joe-and-jill-biden-pen-thanksgiving-op-ed-we-can-be-apart-without", "urlToImage": "https://thehill.com/sites/default/files/bidenjoe_bidenjill_02032020getty_0.jpg", "publishedAt": "2020-11-26T12:42:22Z", "content": "President-elect Joe BidenJoe BidenHarris says she has 'not yet' spoken to PenceKamala Harris, Stacey Abrams among nominees for Time magazine's 2020 Person of the YearObama: Republican Party members b… [+2888 chars]" },
-    { "source": { "id": null, "name": "Motley Fool" }, "author": "Rich Smith", "title": "SpaceX Starlink Just Won a Huge Customer - Motley Fool", "description": "SpaceX's satellite internet broadband service is expanding by leaps and bounds -- and leaping across borders.", "url": "https://www.fool.com/investing/2020/11/26/spacex-starlink-just-won-a-huge-customer/", "urlToImage": "https://g.foolcdn.com/editorial/images/601321/satellite-beaming-down-a-signal-to-earth.jpg", "publishedAt": "2020-11-26T12:07:00Z", "content": "On Saturday, Oct. 24, SpaceX crossed the finish line, achieving the 800 Starlink broadband internet satellites in orbit it needed to offer \"moderate\" internet coverage to large portions of Earth's su… [+3486 chars]" },
-    { "source": { "id": "usa-today", "name": "USA Today" }, "author": "Jessica Flores, Ryan W. Miller", "title": "Coronavirus updates: Thanksgiving parade goes on without crowds; Supreme Court blocks NY worship restrictions; CDC projects 321K deaths - USA TODAY", "description": "The Macy's Thanksgiving Day Parade marches on, but the balloons are distancing. New CDC report says the US misses 8 virus cases for every one counted.", "url": "https://www.usatoday.com/story/news/health/2020/11/26/covid-news-cdc-joe-biden-los-angeles-coronavirus/6427266002/", "urlToImage": "https://www.gannett-cdn.com/presto/2020/11/26/USAT/024d141b-2e07-41b8-b8bc-ef2feba85216-AP_Macys_Thanksgiving_Parade.jpg?crop=1023,575,x1,y70&width=1600&height=800&fit=bounds", "publishedAt": "2020-11-26T12:00:00Z", "content": "AZD1222 is AstraZeneca's newest COVID-19 vaccine candidate, but here is how it differs from the previous two.\r\nUSA TODAY\r\nLike pretty much everything in 2020, Thanksgiving is looking a lot different … [+10868 chars]" }
+    {
+        "source": {
+            "id": null,
+            "name": "Cointelegraph"
+        },
+        "author": "Marcel Pechman",
+        "title": "Data shows Bitcoin price drops days after BTC futures open interest hits $1B - Cointelegraph",
+        "description": "Data shows Bitcoin has a pattern of sharply correcting after the open interest on BTC futures tops $1 billion.",
+        "url": "https://cointelegraph.com/news/data-shows-bitcoin-price-drops-days-after-btc-futures-open-interest-hits-1b",
+        "urlToImage": "https://s3.cointelegraph.com/uploads/2020-11/e320280a-d6c5-426a-b761-6667ff88ebdd.jpg",
+        "publishedAt": "2020-11-27T23:59:34Z",
+        "content": "There was a time when BitMEX derivatives exchange reigned sovereign over other exchanges, and the company effectively held a 50% market share until July 2019. For this reason, traders kept a close ey… [+3779 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KTLA Los Angeles"
+        },
+        "author": "Nisha Gutierrez-Jaime, Gene Kang",
+        "title": "L.A. County health officials announce 3-week stay-at-home order banning most gatherings set to take effect on Monday - KTLA",
+        "description": "With coronavirus cases showing no signs of slowing down in Los Angeles County, health officials on Friday announced a temporary stay-at-home order set to take effect on Monday that urges residents to avoid gathering with people they do not live with. The temp…",
+        "url": "https://ktla.com/news/local-news/l-a-county-health-officials-announce-3-week-stay-at-home-order-banning-most-gatherings-set-to-take-effect-on-monday/",
+        "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2020/11/GettyImages-1288004303.jpg?w=1280",
+        "publishedAt": "2020-11-27T23:48:00Z",
+        "content": "With coronavirus cases showing no signs of slowing down in Los Angeles County, health officials on Friday announced a temporary stay-at-home order set to take effect on Monday that urges residents to… [+4123 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "GameSpot"
+        },
+        "author": "Jenae Sitzes",
+        "title": "Where To Buy A PS5: Black Friday Restock At Walmart, GameStop, And More - GameSpot",
+        "description": "Looking to buy a PS5 over Black Friday and Cyber Monday? We're tracking upcoming restocks from major retailers like Walmart and GameStop.",
+        "url": "https://www.gamespot.com/articles/where-to-buy-a-ps5-black-friday-restock-at-walmart-gamestop-and-more/1100-6475811/",
+        "urlToImage": "https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1591/15918215/3735420-ps5thumb3%281%29.jpg",
+        "publishedAt": "2020-11-27T23:21:00Z",
+        "content": "The big Black Friday 2020 PS5 restocks have come and gone, but that doesn't mean there won't be another opportunity to buy the PS5 before the holidays. The PS5 has been selling out almost instantly a… [+4946 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Cointelegraph"
+        },
+        "author": "Helen Partz",
+        "title": "What happens to your Bitcoin when you die? - Cointelegraph",
+        "description": "Pass on your crypto to the next generation.",
+        "url": "https://cointelegraph.com/news/what-happens-to-your-bitcoin-when-you-die",
+        "urlToImage": "https://s3.cointelegraph.com/uploads/2020-11/32876f2e-81f0-4016-93cb-e467e5888e3b.jpg",
+        "publishedAt": "2020-11-27T23:03:45Z",
+        "content": "Pass on your crypto to the next generation. \r\nAs cryptocurrency investment becomes more and more popular, long-term investors are increasingly concerned with the uncomfortable question: What happens … [+4995 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "HuffPost"
+        },
+        "author": "Sara Boboltz",
+        "title": "US Coronavirus Cases Soar Past 13 Million As Holiday Season Kicks Off - HuffPost",
+        "description": "Experts fear the holidays will lead to even more rampant spread of the coronavirus.",
+        "url": "https://www.huffpost.com/entry/us-coronavirus-13-million-cases_n_5fc17647c5b63d1b770c15e8",
+        "urlToImage": "https://img.huffingtonpost.com/asset/5fc180c41f00007709769fbb.jpeg?cache=sAwzhHRklE&ops=1200_630",
+        "publishedAt": "2020-11-27T23:02:00Z",
+        "content": "The United States has now recorded more than 13 million coronavirus cases, representing around 4% of the country’s total population, according to data compiled by Johns Hopkins University.\r\nNearly 26… [+1675 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "OilPrice.com"
+        },
+        "author": "Julianne Geiger",
+        "title": "OPEC's Impromptu Weekend Meeting Delayed - OilPrice.com",
+        "description": "The impromptu OPEC meeting that had been scheduled for Saturday is now being delayed to Sunday, the full meetings will take place on November 30th and December 1st",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/OPECs-Impromptu-Weekend-Meeting-Delayed.html",
+        "urlToImage": "https://d32r1sh890xpii.cloudfront.net/news/718x300/2020-11-27_f3muxfbpwx.jpg",
+        "publishedAt": "2020-11-27T23:00:00Z",
+        "content": "Carbon capture technology is often…\r\nAs PDVSA struggles to stay…\r\nBy Julianne Geiger - Nov 27, 2020, 5:00 PM CSTOPEC+’s meeting that was put on the books at the last minute for Saturday is now being … [+1811 chars]"
+    },
+    {
+        "source": {
+            "id": "reuters",
+            "name": "Reuters"
+        },
+        "author": "David Shepardson",
+        "title": "U.S. appeals ruling that barred Postal Service changes before election - Reuters",
+        "description": "The U.S. Postal Service (USPS), Postmaster General Louis DeJoy and President Donald Trump late Friday appealed a federal judge's ruling suspending service changes and requiring aggressive steps to ensure ballot deliveries ahead of the November presidential el…",
+        "url": "https://in.reuters.com/article/us-usa-election-post-office-idUSKBN2872QB",
+        "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201127&t=2&i=1542713575&r=LYNXMPEGAQ1EI&w=800",
+        "publishedAt": "2020-11-27T22:58:00Z",
+        "content": "WASHINGTON (Reuters) -\r\nThe U.S. Postal Service (USPS), Postmaster General Louis DeJoy and President Donald Trump late Friday appealed a federal judges ruling suspending service changes and requiring… [+1261 chars]"
+    },
+    {
+        "source": {
+            "id": "google-news",
+            "name": "Google News"
+        },
+        "author": null,
+        "title": "How to avoid getting scammed while holiday shopping online - News4JAX",
+        "description": null,
+        "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9dDktQ0J0T1p4WHPSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2020-11-27T22:53:30Z",
+        "content": null
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "NBC4 Washington"
+        },
+        "author": "NBC Washington Staff",
+        "title": "Coronavirus in DC, Maryland, Virginia: What to Know on Nov. 27 - NBC4 Washington",
+        "description": "The leaders of D.C., Maryland and Virginia — along with the U.S. Centers for Disease Control and Prevention — asked residents to avoid traveling for…",
+        "url": "https://www.nbcwashington.com/news/local/coronavirus-in-dc-maryland-virginia-what-to-know-on-nov-27/2489579/",
+        "urlToImage": "https://media.nbcwashington.com/2020/11/nationals-park-covid-testing-parking-garage.jpg?fit=1024%2C576",
+        "publishedAt": "2020-11-27T22:49:00Z",
+        "content": "The leaders of D.C., Maryland and Virginia along with the U.S. Centers for Disease Control and Prevention asked residents to avoid traveling for Thanksgiving. Now that the holiday is over, were close… [+7158 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Fortwaynesnbc.com"
+        },
+        "author": "Emilia Miles",
+        "title": "Update from police: No shots fired at Glenbrook Square, mall back open - Fort Wayne's NBC",
+        "description": "Police responded to Glenbrook Square mall Friday afternoon after reports of a fight and gunshots being fired.",
+        "url": "https://fortwaynesnbc.com/2020/11/27/update-from-police-no-shots-fired-at-glenbrook-square-mall-back-open/",
+        "urlToImage": "https://quincy-network.s3.ca-central-1.amazonaws.com/wp-content/uploads/sites/17/2020/11/shooting-black-friday-oof.jpg",
+        "publishedAt": "2020-11-27T22:30:00Z",
+        "content": "FORT WAYNE, Ind. (Fort Wayne's NBC) - Police responded to Glenbrook Square mall Friday afternoon after reports of a fight and gunshots being fired. \r\nAt this time, Fort Wayne's NBC News crew can conf… [+711 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "The Denver Channel"
+        },
+        "author": "Ryan Osborne",
+        "title": "Colorado releases draft guidelines for restaurants to possibly avoid some COVID-19 restrictions - The Denver Channel",
+        "description": "Colorado health officials Friday released draft guidelines that could give businesses the opportunity to bypass certain COVID-19 restrictions if they are certified through their local health agency.",
+        "url": "https://www.thedenverchannel.com/news/coronavirus/colorado-releases-draft-guidelines-for-restaurants-to-possibly-avoid-some-covid-19-restrictions",
+        "urlToImage": "https://ewscripps.brightspotcdn.com/dims4/default/6b05bd5/2147483647/strip/true/crop/1006x528+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3d%2F31%2F169166ea4be59af33003eed1689f%2Frestaurant-reopen.png",
+        "publishedAt": "2020-11-27T22:16:00Z",
+        "content": "DENVER Colorado health officials Friday released draft guidelines that could give businesses, including restaurants, the opportunity to avoid certain COVID-19 restrictions if they are certified throu… [+2374 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Buffalo News"
+        },
+        "author": "Stephen T. Watson News Staff Reporter",
+        "title": "Erie County daily positive rate nears 10%, WNY hits 8% - Buffalo News",
+        "description": "The daily positive rate for the county reached 9.9% Thursday, with 622 new Covid-19 cases confirmed out of 6,256 tests performed.",
+        "url": "https://buffalonews.com/news/local/erie-county-daily-positive-rate-nears-10-wny-hits-8/article_e5f477f4-30f0-11eb-bbab-779dde2368e3.html",
+        "urlToImage": "https://bloximages.chicago2.vip.townnews.com/buffalonews.com/content/tncms/assets/v3/editorial/5/75/5758a3da-30f5-11eb-949a-972f03508bd5/5f4945ec118eb.image.jpg?crop=842%2C474%2C0%2C19&resize=842%2C474&order=crop%2Cresize",
+        "publishedAt": "2020-11-27T21:54:01Z",
+        "content": "Erie County Executive Mark Poloncarz said Thursday's Covid-19 positive test rate for the county came back at nearly 10% and the rolling, seven-day average has now surpassed 7%.\r\nMark Mulville\r\nNearly… [+1522 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Hawaii News Now"
+        },
+        "author": "HNN Staff",
+        "title": "Hawaii reports 92 new COVID-19 infections, 3 additional fatalities - Hawaii News Now",
+        "description": "Hawaii reported 92 new COVID-19 cases Friday and three additional fatalities, pushing the death toll from the virus in Hawaii to 240.",
+        "url": "https://www.hawaiinewsnow.com/2020/11/27/hawaii-reports-new-covid-infections-additional-fatalities/",
+        "urlToImage": "https://www.hawaiinewsnow.com/resizer/WY9-B0c-Nmrt005uLT2tbaSKpoU=/1200x0/cloudfront-us-east-1.images.arcpublishing.com/raycom/RNOLZXLA2ZD7XEJG3K6H7G7HPM.JPG",
+        "publishedAt": "2020-11-27T21:54:00Z",
+        "content": "HONOLULU, Hawaii (HawaiiNewsNow) - Hawaii reported 92 new COVID-19 cases Friday and three additional fatalities, pushing the death toll from the virus in Hawaii to 240.\r\nAll three of the newly-report… [+452 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "MarketWatch Automation",
+        "title": "Moderna Inc. stock outperforms competitors on strong trading day - MarketWatch",
+        "description": "",
+        "url": "https://www.marketwatch.com/story/moderna-inc-stock-outperforms-competitors-on-strong-trading-day-01606513504",
+        "urlToImage": "https://images.mktw.net/im-228778/social",
+        "publishedAt": "2020-11-27T21:45:00Z",
+        "content": "Shares of Moderna Inc. \r\n MRNA,\r\n +16.34%\r\nclimbed 16.35% to $127.03 Friday, on what proved to be an all-around favorable trading session for the stock market, with the NASDAQ Composite Index \r\n COMP… [+295 chars]"
+    },
+    {
+        "source": {
+            "id": "the-wall-street-journal",
+            "name": "The Wall Street Journal"
+        },
+        "author": "Alison Sider, Peter Loftus",
+        "title": "United Begins Flying Pfizer’s Covid-19 Vaccine - The Wall Street Journal",
+        "description": "Carriers are positioning doses for quick distribution if vaccines are approved by regulators",
+        "url": "https://www.wsj.com/articles/united-begins-flying-pfizers-covid-19-vaccine-11606512293",
+        "urlToImage": "https://images.wsj.net/im-265569/social",
+        "publishedAt": "2020-11-27T21:41:00Z",
+        "content": "United Airlines Holdings Inc. on Friday began operating charter flights to position doses of Pfizer Inc.s Covid-19 vaccine for quick distribution if the shots are approved by regulators, according to… [+334 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "TribLIVE"
+        },
+        "author": "Renatta Signorini",
+        "title": "Westmoreland development corp. acquires 110 acres near casino - TribLIVE",
+        "description": "The potential for 110 vacant acres in Hempfield and Unity is big given its proximity to the newly-opened Live! Casino Pittsburgh inside Westmoreland Mall, according to Jason Rigone, director of the Westmoreland County Industrial Development Corp. “We’re excit…",
+        "url": "https://triblive.com/local/westmoreland/westmoreland-development-corp-acquires-110-acres-near-casino/",
+        "urlToImage": "https://triblive.com/wp-content/uploads/2020/11/3277313_web1_WEB-WestmorelandCourthouse002.jpg",
+        "publishedAt": "2020-11-27T21:14:48Z",
+        "content": "Our commenting has been temporarily disabled.\r\nYou are solely responsible for your comments and by using TribLive.com you agree to our\r\nTerms of Service.\r\nWe moderate comments. Our goal is to provide… [+1733 chars]"
+    }
+
 ]
+
+
+
 
 exports.data = data;
